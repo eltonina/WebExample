@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<AssemblyName>Web.Example</AssemblyName>
+	<PackageId>Web.Example</PackageId>
+	<VersionPrefix>1.0.1</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Configuration" Version="1.0.0" />
+    <PackageReference Include="Web.Client" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
